@@ -1,0 +1,16 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+PyMuPDF==1.23.8
+python-multipart==0.0.6
+aiofiles==23.2.1
+httpx==0.26.0
+python-docx==1.1.0
+reportlab==4.0.8
+Pillow==10.2.0
+translators==5.8.8
+deep-translator==1.11.4
+aiohttp==3.9.1
+pytest==7.4.3
+pytest-asyncio==0.21.1
