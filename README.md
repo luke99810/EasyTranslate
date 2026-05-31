@@ -44,17 +44,16 @@ EasyTranslate/
 ### Backend
 
 ```bash
-cd paper-translate/backend
+# Clone the repository
+git clone https://github.com/luke99810/EasyTranslate.git
+cd EasyTranslate/paper-translate/backend
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run with Docker
 docker build -t easytranslate-backend .
 docker run -p 8000:8000 easytranslate-backend
-```
-
-### Frontend
-
-```bash
-# Use the hosted version or deploy your own
-# Access at http://localhost:5173
 ```
 
 ### Docker Compose (Full Stack)
@@ -62,6 +61,10 @@ docker run -p 8000:8000 easytranslate-backend
 ```bash
 docker-compose up -d
 ```
+
+## 🌐 Deployment
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
 ## 📖 Documentation
 
